@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ID INFORMATION</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Align items vertically in the center */
+        }
+
+        img {
+            margin-right: 20px; /* Add some space between the image and text */
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex-basis: 50%; /* Adjust the width of each column as needed */
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+        .button-container a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #800000;
+            color: #fff;
+            border-radius: 5px;
+            margin-left: 10px; /* Adjust the margin as needed */
+            display: inline-block;
+            cursor: pointer; /* Add a pointer cursor for better usability */
+            border: none;
+        }
+        .footer {
+            background-color: #800000;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <div class="container">
+        <img src="C:\Users\ronan\webdevproj\348896119_1707518923016046_4358584958888035038_n.png" alt="Description of the image" width="150" height="150">
+        <span>REPUBLIC OF THE PHILIPPINES
+            <br>
+            POLYTECHNIC UNIVERSITY OF THE PHILIPPINES
+            <br>
+            OFFICE OF THE VICE PRESIDENT FOR STUDENT AFFAIRS AND SERVICES
+            <br>
+            OFFICE OF THE STUDENT SERVICES
+        </span>
+    </div>
+    <br>
+    <div class="center-text">
+        <h2>CONTACT INFORMATION</h2>
+    </div>      
+<form>
+    <fieldset>
+        <legend>In case of emergency, please notify: </legend>
+        <label for="emergency_name">Complete Name:</label>
+        <input type="text" id="emergency_name" name="emergency_name" required>
+        <br>
+        <label for="emergency_phone_number">Phone/Mobile No.:</label>
+        <input type="tel" id="emergency_phone_number" name="emergency_phone_number" required>
+        <br>
+        <label for="emergency_address">Address:</label>
+        <textarea id="emergency_address" name="emergency_address" required></textarea>
+    </fieldset>
+
+    <br>
+    <div class="button-container">
+            <a href="file:///C:/Users/ronan/webdevproj/DRAFT%202.html">Previous Page</a>    
+        <input type="submit" value="Submit" class="button-container"></input>
+    </div>
+
+        <div class="footer">
+            <p >Contact us: contact@example.com | Phone: (123) 456-7890</p>
+    </div>
+</form>
+</body> 
+</html>

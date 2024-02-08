@@ -1,0 +1,45 @@
+
+        .container {
+            display: flex;
+            align-items: center; /* Align items vertically in the center */
+        }
+
+        img {
+            margin-right: 20px; /* Add some space between the image and text */
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex-basis: 48%; /* Adjust the width of each column as needed */
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+        .button-container a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #800000;
+            color: #fff;
+            border-radius: 5px;
+            margin-left: 10px; /* Adjust the margin as needed */
+            display: inline-block;
+        }
+        .footer {
+            background-color: #800000;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin: 0;
+        }
